@@ -4,7 +4,7 @@ Finds images in a folder and turn them into a desktop/mobile slideshow with swip
 
 ## Features
 
-* No setup required ! Just download and add images to the ```img``` folder, and you're flying
+* No setup required ! Just download the [zip](https://github.com/noahlaux/SwipeViewer/zipball/master) and add images to the ```img``` folder, and you're flying
 * Runs smooooooth on your desktop and mobile devices (looks awesome on iPads!)
 * Supports swipe gestures, keyboard and mouse input
 * All JavaScript, so no server needed
