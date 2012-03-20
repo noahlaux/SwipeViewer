@@ -1,0 +1,115 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+#container {
+    z-index: 0;
+    -webkit-transform: translate3d(0px,0px,0px); /* prevent iPad for flickr on first slide */
+}
+
+img {
+    z-index: 0;
+    vertical-align: middle;
+}
+
+/* Navigation */
+.prev, .next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 115px;
+    z-index: 10;
+    display: block;
+    cursor: pointer;
+}
+
+.prev span, .next span {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -1em;
+    font-size: 5em;
+    opacity: .5;
+}
+
+.prev { left: 0; }
+    .prev:hover span { display: block; }
+
+.next { right: 0; }
+    .next span { right: 0; }
+    .next:hover span { display: block; }
+
+
+/* Spinner */
+#bowlG{
+    position: absolute;
+    width:56px;
+    height:56px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -27px;
+    margin-top: -27px;
+}
+
+#bowl_ringG {
+    position:absolute;
+    width:56px;
+    height:56px;
+    border:5px solid #525252;
+    -moz-border-radius:56px;
+    -webkit-border-radius:56px;
+}
+
+.ball_holderG {
+    position:absolute;
+    width:15px;
+    height:56px;
+    left:21px;
+    top:0px;
+    -webkit-animation-name:ball_moveG;
+    -webkit-animation-duration:1.3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -moz-animation-name:ball_moveG;
+    -moz-animation-duration:1.3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+}
+
+.ballG {
+    position:absolute;
+    left:0px;
+    top:-13px;
+    width:22px;
+    height:22px;
+    background:#FFFFFF;
+    -moz-border-radius:19px;
+    -webkit-border-radius:19px;
+}
+
+@-webkit-keyframes ball_moveG {
+    0%{
+    -webkit-transform:rotate(0deg)}
+
+100%{
+    -webkit-transform:rotate(360deg)}
+
+}
+
+@-moz-keyframes ball_moveG{
+    0%{
+    -moz-transform:rotate(0deg)}
+
+100%{
+    -moz-transform:rotate(360deg)}
+
+}
