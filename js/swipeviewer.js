@@ -1,5 +1,5 @@
 /**
- * SwipeViewer
+ * SwipeViewer (https://github.com/noahlaux/SwipeViewer/)
  *
  * Finds images in folder and turn them into a mobile slideshow with swipe gestures
  *
