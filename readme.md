@@ -1,6 +1,6 @@
 # SwipeViever
 
-Finds images in folder and turn them into a mobile slideshow with swipe gestures.
+Finds images in a folder and turn them into a desktop/mobile slideshow with swipe gestures.
 
 ## Features
 
@@ -19,7 +19,8 @@ Images defaults to be 100% of windows width, so if you want to make a quick iPad
 
 You can navigate the slideshow with the following keys:
 
-* Swipe left and right on your mobile device to goto next or previous slide
-* use ```<-``` and ```->``` keys on your keyboard
+* Swipe left and right on your mobile device
+* Touch or click on the left/right edges of the screen
+* use ```<-``` and ```->``` arrow keys on your keyboard
 * ```home``` button goes to first slide and ```end``` button goes to last slide
 * ```spacebar``` also takes you to the next slide
