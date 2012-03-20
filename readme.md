@@ -1,6 +1,6 @@
 # SwipeViever
 
-Finds images in a folder and turn them into a desktop/mobile slideshow with swipe gestures.
+Finds images in a folder and turn them into a HTML desktop/mobile slideshow with swipe gestures.
 
 ## Features
 

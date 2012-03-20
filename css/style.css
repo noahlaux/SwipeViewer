@@ -38,6 +38,7 @@ img {
     margin-top: -1em;
     font-size: 5em;
     opacity: .5;
+    -webkit-text-stroke: 1px #fff;
 }
 
 .prev { left: 0; }
