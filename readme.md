@@ -1,4 +1,4 @@
-### SwipeViever
+# SwipeViever
 
 Finds images in folder and turn them into a mobile slideshow with swipe gestures.
 
