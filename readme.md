@@ -11,9 +11,9 @@ Finds images in folder and turn them into a mobile slideshow with swipe gestures
 
 ## Quick start
 
-Add numbered image files to the ```img``` folder like ```01.jpg```, ```02.jpg``` etc
+Add numbered image files to the ```img``` folder like ```01.jpg```, ```02.jpg``` etc. By default swipeviewer supports jpg extension, but you can easily change the format in the js file.
+
 Images defaults to be 100% of windows width, so if you want to make a quick iPad slide show, make a couple of 1024x768px images.
-By default swipeviewer supports
 
 ## Supported gestures
 
