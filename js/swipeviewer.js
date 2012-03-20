@@ -194,7 +194,9 @@ $( function() {
             var width = this.container.find('img').eq( index ).width() * index;
             
             this.container.anim({
-                '-webkit-transform': 'translate3d(-' + width + 'px,0px,0px)'
+                '-webkit-transform': 'translate3d(-' + width + 'px,0px,0px)',
+                '-moz-transform': 'translate(-' + width + 'px,0px)',
+                '-ms-transform': 'translate(-' + width + 'px,0px)'
             });
             
         },
