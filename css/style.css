@@ -46,7 +46,7 @@ img {
     filter: alpha(opacity=50);
     opacity: 0.5;
     -webkit-text-stroke: 1px #fff;
-    -moz-text-stroke: 1px #fff
+    -moz-text-stroke: 1px #fff;
     }
 
 .prev {
