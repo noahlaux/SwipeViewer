@@ -9,7 +9,7 @@ body {
     right: 0;
     width: 100%;
     overflow: hidden;
-    }
+}
 
 #container {
     z-index: 0;
@@ -19,12 +19,13 @@ body {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     /* prevent iPad for flickr on first slide */
-    }
+}
 
 img {
     z-index: 0;
-    vertical-align: middle
-    }
+    vertical-align: middle;
+    float: left;
+}
 
 /* Navigation */
 .prev, .next {
@@ -35,7 +36,7 @@ img {
     z-index: 10;
     display: block;
     cursor: pointer
-    }
+}
 
 .prev span, .next span {
     display: none;
@@ -48,27 +49,27 @@ img {
     opacity: 0.5;
     -webkit-text-stroke: 1px #fff;
     -moz-text-stroke: 1px #fff;
-    }
+}
 
 .prev {
-    left: 0
-    }
+    left: 0;
+}
 
 .prev:hover span {
-    display: block
-    }
+    display: block;
+}
 
 .next {
-    right: 0
-    }
+    right: 0;
+}
 
 .next span {
-    right: 0
-    }
+    right: 0;
+}
 
 .next:hover span {
     display: block
-    }
+}
 
 /* Spinner */
 #bowlG {
@@ -80,7 +81,7 @@ img {
     left: 50%;
     margin-left: -27px;
     margin-top: -27px
-    }
+}
 
 #bowl_ringG {
     position: absolute;
@@ -90,7 +91,7 @@ img {
     -webkit-border-radius: 56px;
     -moz-border-radius: 56px;
     border-radius: 56px
-    }
+}
 
 .ball_holderG {
     position: absolute;
@@ -106,7 +107,7 @@ img {
     -moz-animation-duration: 1.3s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear
-    }
+}
 
 .ballG {
     position: absolute;
@@ -118,4 +119,4 @@ img {
     -webkit-border-radius: 19px;
     -moz-border-radius: 19px;
     border-radius: 19px
-    }
+}
