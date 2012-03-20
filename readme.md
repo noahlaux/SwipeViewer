@@ -15,6 +15,9 @@ Images defaults to be 100% of windows width, so if you want to make a quick iPad
 
 ## Supported gestures
 
+You can navigate the slideshow with the following keys
+
 * Swipe left and right on your mobile device to goto next or previous slide
 * use ```<-``` and ```->``` keys on your keyboard
-* ```home``` button goes to first slide and ```end```button goes to last slide  
+* ```home``` button goes to first slide and ```end``` button goes to last slide
+* ```spacebar``` also takes you to the next slide
