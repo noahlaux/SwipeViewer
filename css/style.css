@@ -120,3 +120,15 @@ img {
     -moz-border-radius: 19px;
     border-radius: 19px
 }
+
+@-webkit-keyframes ball_moveG {
+    0% { -webkit-transform:rotate( 0deg ) }
+    
+    100% { -webkit-transform:rotate( 360deg ) }
+}
+
+@-moz-keyframes ball_moveG {
+    0% { -moz-transform:rotate( 0deg ) }
+    
+    100% { -moz-transform:rotate( 360deg ) }
+}
