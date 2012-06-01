@@ -13,18 +13,17 @@ body {
 
 #container {
     z-index: 0;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    /* prevent iPad for flickr on first slide */
 }
 
 img {
     z-index: 0;
     vertical-align: middle;
     float: left;
+    -webkit-transform: translate3d(0, 0, 0); /* prevent iPad for flickr on first slide */
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
 }
 
 /* Navigation */
