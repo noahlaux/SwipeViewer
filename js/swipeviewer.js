@@ -196,7 +196,9 @@ $( function() {
             this.container.anim({
                 '-webkit-transform': 'translate3d(-' + width + 'px,0px,0px)',
                 '-moz-transform': 'translate(-' + width + 'px,0px)',
-                '-ms-transform': 'translate(-' + width + 'px,0px)'
+                '-ms-transform': 'translate(-' + width + 'px,0px)',
+                '-o-transform': 'translate(-' + width + 'px,0px)',
+                'transform': 'translate(-' + width + 'px,0px)'
             });
             
         },
